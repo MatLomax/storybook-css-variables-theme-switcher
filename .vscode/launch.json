@@ -1,0 +1,15 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "chrome",
+			"request": "launch",
+			"name": "Debug",
+			"preLaunchTask": "Storybook DEV",
+			"url": "http://localhost:6006",
+			"webRoot": "${workspaceFolder}",
+			"sourceMaps": true,
+			"trace": true
+		}
+	]
+}
