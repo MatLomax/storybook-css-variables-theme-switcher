@@ -14,8 +14,8 @@ const preview: Preview = {
     },
     themes: {
       files: {
-        "Red": "button{background-color: #FF0000 !important; color: #fff;}",
-        "Green": "button{background-color: #00FF00 !important; color: #fff;}",
+        "Red": "/.storybook/themes/red.css",
+        "Green": "/.storybook/themes/green.css",
       },
       defaultTheme: "Red", 
     }
